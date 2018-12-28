@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codeBook xmlns:act="http://ced2ar.org/ns/activities#" xmlns:ced2ar="http://ced2ar.org/ns/core#" xmlns:RePEc="https://ideas.repec.org/#" xmlns:exn="http://ced2ar.org/ns/external#" xmlns:repeca="https://ideas.repec.org/e/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:tr="http://example.com/ns/tr#" xmlns:ex="http://example.com/ns/ex#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:saxon="http://xml.apache.org/xslt" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dc="http://purl.org/dc/terms/" xmlns="ddi:codebook:2_5" xsi:schemaLocation="ddi:codebook:2_5 http://www.ncrn.cornell.edu/docs/ddi/2.5.NCRN.P/schemas/codebook.xsd">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>NBER-CES Manufacturing Industry Database (2009) [NAICS]</titl>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="U.S. Census Bureau">Randy A. Becker</AuthEnty>
+        <AuthEnty affiliation="Clark University">Wayne B. Gray</AuthEnty>
+        <AuthEnty affiliation="Clark University">Jordan Marvakov</AuthEnty>
+        <othId affiliation="Cornell University" role="Creator of DDI">Flavio Stanchi</othId>
+        <othId affiliation="Cornell University" role="Creator of DDI">Lars Vilhuber</othId>
+        <othId affiliation="Vrije Universiteit Amsterdam" role="Co-Creator of original data">Eric J. Bartelsman</othId>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="Cornell NCRN Project">Cornell NSF-Census Research Network</producer>
+        <copyright>Cornell NCRN Project</copyright>
+        <prodDate date="2015-02-04">February 4, 2015</prodDate>
+        <prodPlac>Labor Dynamics Institute, Cornell University, Ithaca NY<ExtLink URI="http://www.ilr.cornell.edu/ldi/"/>
+        </prodPlac>
+        <software>CED2AR, Version 1.0</software>
+        <software>The Comprehensive Extensible Data Documentation and Access Repository 2.5</software>
+        <software>The Comprehensive Extensible Data Documentation and Access Repository 2.5</software>
+        <fundAg abbr="NSF">National Science Foundation (NSF)</fundAg>
+        <grantNo agency="National Science Foundation">1131848</grantNo>
+      </prodStmt>
+      <distStmt source="producer">
+        <distrbtr URI="http://www.ncrn.cornell.edu" abbr="Cornell NCRN Project">NSF-Census Research Network - Cornell node</distrbtr>
+        <distrbtr URI="http://www.ciser.cornell.edu" abbr="CISER">Cornell Institute for Social and Economic Research</distrbtr>
+        <distrbtr URI="http://www.ilr.cornell.edu/ldi" abbr="LDI">Labor Dynamics Institute</distrbtr>
+        <distDate date="2015-02-04">February 4, 2015</distDate>
+      </distStmt>
+      <verStmt>
+        <version date="2015-11-26 10:30:53 (auto-generated)">Revision 1336</version>
+      </verStmt>
+      <biblCit>
+        <p>Cornell NSF-Census Research Network. Codebook for the NBER-CES Manufacturing Industry Database (2009) [Codebook file]. Cornell Institute for Social and Economic Research and Labor Dynamics Institute [distributor]. Cornell University, Ithaca, NY, 2013</p>
+      </biblCit>
+    </citation>
+    <docSrc>
+      <titlStmt>
+        <titl>NBER-CES Manufacturing Industry Database (2009) [NAICS]</titl>
+      </titlStmt>
+      <distStmt>
+        <depositr/>
+      </distStmt>
+    </docSrc>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>NBER-CES Manufacturing Industry Database (2009)[NAICS]</titl>
+        <IDNo>NBER-CESManufacturingIndustryDatabase2009NAICS</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="U.S. Census Bureau">Randy A. Becker</AuthEnty>
+        <AuthEnty affiliation="Clark University">Wayne B. Gray</AuthEnty>
+        <AuthEnty affiliation="Clark University">Jordan Marvakov</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer affiliation="U.S. Census Bureau" role="Co-creator">Randy A. Becker</producer>
+        <producer affiliation="Clark University" role="Co-creator">Wayne B. Gray</producer>
+        <producer affiliation="Clark University" role="Co-creator">Jordan Marvakov</producer>
+        <producer affiliation="Vrije Universiteit Amsterdam" role="Co-creator of original version">Eric J. Bartelsman</producer>
+        <prodDate date="2013-03-21">2013-03-21</prodDate>
+      </prodStmt>
+      <distStmt>
+        <distrbtr URI="http://www.nber.org/data/nberces5809.html" affiliation="NBER"/>
+        <depositr/>
+      </distStmt>
+      <verStmt>
+        <version>June 2013</version>
+      </verStmt>
+      <biblCit>Becker, Randy A., Wayne B. Gray, Jordan Marvakov. NBER-CES Manufacturing Industry Database: June 2013 Revision [Computer file]. Boston, MA; National Bureau of Economic Research [distributor], Boston, MA, 2013</biblCit>
+    </citation>
+    <stdyInfo>
+      <abstract>This database is a joint effort between the National Bureau of Economic Research (NBER) and U.S. Census Bureau's Center 
+        for Economic Studies (CES), containing annual industry-level data from 1958-2009 on output, employment, payroll and other input costs,
+        investment, capital stocks, TFP, and various industry-specific price indexes. Because of the change from SIC to NAICS industry definitions in 1997,
+        the database is provided in two versions: one with 459 four-digit 1987 SIC industries and the other with 473 six-digit 1997 NAICS industries.</abstract>
+      <sumDscr>
+        <timePrd>1958-2009</timePrd>
+        <nation abbr="USA">United States of America</nation>
+        <geogCover>National</geogCover>
+        <anlyUnit>Industries within Manufacturing</anlyUnit>
+        <universe>Manufacturing establishments</universe>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector abbr="Census">U.S. Census Bureau</dataCollector>
+        <collMode>The NBER-CES Manufacturing Industry Database contains annual data from the United States manufacturing sector for the period from 1958 to 2009. 
+          The data used for the development of the database come from various sources, but chiefly from four government agencies: the Bureau of the Census, 
+          the Bureau of Economic Analysis, the Bureau of Labor Statistics, and the Federal Reserve Board. The goal is to provide a long time-series of data 
+          for a large number of industries, adjusting for changes in industry definitions, and creating price deflators, capital stocks, and productivity estimates. 
+          This paper describes issues related to the most recent update of the database (1997 to 2009). For a more detailed discussion of an older version of 
+          the data see Bartelsman and Gray (1996). The key feature (and complication) of recent updates is the adjustment to the NAICS industry definitions. 
+          It is published in two versions: one based on the 1987 Standard Industrial Classification (SIC), containing 459 industries, and the other based on 
+          the 1997 North American Industrial Classification System (NAICS), containing 473 industries. The boundaries of the manufacturing sector shifted between
+          SIC and NAICS, with some SIC industries leaving manufacturing and other NAICS industries entering manufacturing. The exiting SIC industries don't have data
+          after 1996, and the entering NAICS industries don't have data before 1997. To enable the calculation of price deflators in each version, the benchmark year 
+          for deflators in the NAICS version is 1997, while the SIC version continues to use 1987 as a benchmark. This version of the database recalculates all the 
+          data post-1996, and earlier updates of the database (1958-2002 and 1958-2005) are superseded and should not be used.
+          For more information, see methodology in<ExtLink URI="http://www.nber.org/nberces/t0205.pdf">http://www.nber.org/nberces/t0205.pdf</ExtLink>,
+          technical notes in<ExtLink URI="http://www.nber.org/nberces/nberces5809/nberces_5809_technical_notes.pdf">http://www.nber.org/nberces/nberces5809/nberces_5809_technical_notes.pdf</ExtLink>, information on Concordances (1987 SIC - 1997 NAICS in<ExtLink URI="http://www.nber.org/nberces/nberces5809/conc_sic87_naics97.dta">Stata</ExtLink>,<ExtLink URI="http://www.nber.org/nberces/nberces5809/conc_sic87_naics97.sas7bdat">SAS</ExtLink>,<ExtLink URI="http://www.nber.org/nberces/nberces5809/conc_sic87_naics97.xls">Excel</ExtLink>,<ExtLink URI="http://www.nber.org/nberces/nberces5809/conc_sic87_naics97.csv">CSV</ExtLink>,<ExtLink URI="http://www.nber.org/nberces/nberces5809/conc_sic87_naics97_documentation.pdf">PDF</ExtLink>, 1972 SIC - 1987 SIC in<ExtLink URI="http://www.nber.org/nberces/nberces5809/conc_sic72_sic87.dta">Stata</ExtLink>,<ExtLink URI="http://www.nber.org/nberces/nberces5809/conc_sic72_sic87.sas7bdat">SAS</ExtLink>,<ExtLink URI="http://www.nber.org/nberces/nberces5809/conc_sic72_sic87.xls">Excel</ExtLink>,<ExtLink URI="http://www.nber.org/nberces/nberces5809/conc_sic72_sic87.csv">CSV</ExtLink>,<ExtLink URI="http://www.nber.org/nberces/nberces5809/conc_sic72_sic87_documentation.pdf"/>).</collMode>
+        <sources>
+          <dataSrc>Annual Survey of Manufactures (ASM)</dataSrc>
+          <dataSrc>Federal Reserve Board data (FRB)</dataSrc>
+          <dataSrc>Bureau of Economic Analysis (BEA) GDP-by-Industry data</dataSrc>
+          <dataSrc>2002 Manufacturing Energy Consumption Survey (MECS)</dataSrc>
+          <dataSrc>Bureau of Labor Statistics database</dataSrc>
+        </sources>
+      </dataColl>
+    </method>
+    <dataAccs ID="released">
+      <useStmt>
+        <contact URI="http://www.nber.org/data/nberces5809.html" affiliation="NBER">Please forward all inquiries to: Wayne Gray, Clark University and NBER,<ExtLink URI="mailto:wgray@clarku.edu">wgray@clarku.edu</ExtLink>or Randy Becker, Center for Economic Studies, U.S. Census Bureau,<ExtLink URI="mailto:randy.a.becker@census.gov">randy.a.becker@census.gov</ExtLink>
+        </contact>
+        <citReq>When using the data, please cite it according to bibliographic citation provided.</citReq>
+        <conditions>The data providers ask that you please not forward this data on to others. Instead, please refer interested parties to<ExtLink URI="http://www.nber.org/data/nberces5809.html">http://www.nber.org/data/nberces5809.html</ExtLink>. This ensures that everyone receives the latest version of the data that's available.</conditions>
+      </useStmt>
+    </dataAccs>
+    <dataAccs ID="restricted"/>
+    <othrStdyMat>
+      <relPubl>Eric J. Bartelsman and Wayne Gray, 1996. "The NBER Manufacturing Productivity Database," NBER Technical Working Papers 0205, National Bureau of Economic Research, Inc.<ExtLink URI="http://www.nber.org/papers/t0205.pdf">http://www.nber.org/papers/t0205.pdf</ExtLink>
+      </relPubl>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr ID="F2dta" URI="http://www.nber.org/data/nberces5809.html">
+    <fileTxt>
+      <fileName>naics5809.dta</fileName>
+      <dimensns>
+        <caseQnty>24596</caseQnty>
+        <varQnty>24</varQnty>
+      </dimensns>
+      <fileType>Stata</fileType>
+      <software version="8">Stata</software>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F2sas" URI="http://www.nber.org/data/nberces5809.html">
+    <fileTxt>
+      <fileName>naics5809.sas7bdat</fileName>
+      <dimensns>
+        <caseQnty>24596</caseQnty>
+        <varQnty>24</varQnty>
+      </dimensns>
+      <fileType>SAS</fileType>
+      <software version="9.0000M0">SAS</software>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F2xls" URI="http://www.nber.org/data/nberces5809.html">
+    <fileTxt>
+      <fileName>naics5809.xls</fileName>
+      <dimensns>
+        <caseQnty>24596</caseQnty>
+        <varQnty>24</varQnty>
+      </dimensns>
+      <fileType>Excel spreadsheet</fileType>
+      <software>Excel</software>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F2csv" URI="http://www.nber.org/data/nberces5809.html">
+    <fileTxt>
+      <fileName>naics5809.csv</fileName>
+      <dimensns>
+        <caseQnty>24596</caseQnty>
+        <varQnty>24</varQnty>
+      </dimensns>
+      <fileType>CSV</fileType>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <var ID="V25" access="released" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="naics">
+      <location width="10"/>
+      <labl>1997 North American Ind. Classification System</labl>
+      <valrng>
+        <range max="339999" min="311111"/>
+      </valrng>
+      <sumStat type="vald">24596</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min">311111</sumStat>
+      <sumStat type="max">339999</sumStat>
+      <sumStat type="mean">327009.662</sumStat>
+      <sumStat type="stdev">8889.717</sumStat>
+      <txt>NAICS 6-digit Codes. Additional information in<ExtLink URI="http://www.nber.org/nberces/nberces5809/naics_names_1997.xls">Excel</ExtLink>or<ExtLink URI="http://www.nber.org/nberces/nberces5809/naics_names_1997.txt">Text</ExtLink>format.</txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V26" access="released" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="year">
+      <location width="8"/>
+      <labl>Year ranges from 58 to 09</labl>
+      <valrng>
+        <range max="2009" min="1958"/>
+      </valrng>
+      <sumStat type="vald">24596</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min">1958</sumStat>
+      <sumStat type="max">2009</sumStat>
+      <sumStat type="mean">1983.5</sumStat>
+      <sumStat type="stdev">15.009</sumStat>
+      <txt/>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V27" access="released" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="emp">
+      <location width="9"/>
+      <labl>Total employment in 1000s</labl>
+      <valrng>
+        <range UNITS="REAL" max="559.9" min="0.2"/>
+      </valrng>
+      <sumStat type="vald">24167</sumStat>
+      <sumStat type="invd">429</sumStat>
+      <sumStat type="min">0.2</sumStat>
+      <sumStat type="max">559.9</sumStat>
+      <sumStat type="mean">34.814</sumStat>
+      <sumStat type="stdev">45.053</sumStat>
+      <txt>Number of employees (in 1000s). This includes both production workers (average of reported employment in 
+        March, May, August and November) and other workers (only March figure). It does not include employees in the
+        auxiliary (administrative) units, which are reported separately.</txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V28" access="released" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="pay">
+      <location width="9"/>
+      <labl>Total payroll in $1m</labl>
+      <valrng>
+        <range UNITS="REAL" max="16162.9" min="2.9"/>
+      </valrng>
+      <sumStat type="vald">24167</sumStat>
+      <sumStat type="invd">429</sumStat>
+      <sumStat type="min">2.9</sumStat>
+      <sumStat type="max">16162.9</sumStat>
+      <sumStat type="mean">735.896</sumStat>
+      <sumStat type="stdev">1252.867</sumStat>
+      <txt>Total payroll in millions of dollars. This does not include social security or other legally mandated 
+        payments, or employer payments for some fringe benefits.</txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V29" access="released" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="prode">
+      <location width="9"/>
+      <labl>Production workers in 1000s</labl>
+      <valrng>
+        <range UNITS="REAL" max="459.9" min="0.2"/>
+      </valrng>
+      <sumStat type="vald">24167</sumStat>
+      <sumStat type="invd">429</sumStat>
+      <sumStat type="min">0.2</sumStat>
+      <sumStat type="max">459.9</sumStat>
+      <sumStat type="mean">25.423</sumStat>
+      <sumStat type="stdev">33.651</sumStat>
+      <txt>Number of production workers (in 1000s). This excludes supervisors above the line-supervisor level, clerical,
+        sales, office, professional, and technical workers. Plants report the number of production workers for four 
+        separate pay periods (including the 12th day of March, May, August and November), and these are averaged together.</txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V30" access="released" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="prodh">
+      <location width="9"/>
+      <labl>Production worker hours in 1m</labl>
+      <valrng>
+        <range UNITS="REAL" max="904.1" min="0.3"/>
+      </valrng>
+      <sumStat type="vald">24167</sumStat>
+      <sumStat type="invd">429</sumStat>
+      <sumStat type="min">0.3</sumStat>
+      <sumStat type="max">904.1</sumStat>
+      <sumStat type="mean">50.64</sumStat>
+      <sumStat type="stdev">66.823</sumStat>
+      <txt>Number of production worker hours (in millions of hours). This includes all hours worked or paid for,
+        including actual overtime hours, but excluding vacation, holidays or sick leave.</txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V31" access="released" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="prodw">
+      <location width="9"/>
+      <labl>Production worker wages in $1m</labl>
+      <valrng>
+        <range UNITS="REAL" max="10475.2" min="1.8"/>
+      </valrng>
+      <sumStat type="vald">24167</sumStat>
+      <sumStat type="invd">429</sumStat>
+      <sumStat type="min">1.8</sumStat>
+      <sumStat type="max">10475.2</sumStat>
+      <sumStat type="mean">443.796</sumStat>
+      <sumStat type="stdev">736.828</sumStat>
+      <txt>Production worker wages (millions of dollars).</txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V32" access="released" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="vship">
+      <location width="10"/>
+      <labl>Total value of shipments in $1m</labl>
+      <valrng>
+        <range UNITS="REAL" max="732728.4" min="19.3"/>
+      </valrng>
+      <sumStat type="vald">24167</sumStat>
+      <sumStat type="invd">429</sumStat>
+      <sumStat type="min">19.3</sumStat>
+      <sumStat type="max">732728.4</sumStat>
+      <sumStat type="mean">4799.495</sumStat>
+      <sumStat type="stdev">13196.309</sumStat>
+      <txt>Value of industry shipments (millions of dollars). These are based on net selling values, f.o.b. plant, 
+        after discounts and allowances. This includes receipts for contract work and miscellaneous services provided 
+        by the plant to others. VSHIP is not adjusted for inventory changes, and can include large amounts of duplication across
+        industries or even across plants in the same industry (especially machinery and transportation industries that often
+        include production of parts as well as final products).</txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V33" access="released" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="matcost">
+      <location width="10"/>
+      <labl>Total cost of materials in $1m</labl>
+      <valrng>
+        <range UNITS="REAL" max="648048.4" min="8.8"/>
+      </valrng>
+      <sumStat type="vald">24167</sumStat>
+      <sumStat type="invd">429</sumStat>
+      <sumStat type="min">8.8</sumStat>
+      <sumStat type="max">648048.4</sumStat>
+      <sumStat type="mean">2620.97</sumStat>
+      <sumStat type="stdev">9721.22</sumStat>
+      <txt>Cost of materials (millions of dollars). This includes the total delivered cost of raw materials, parts,
+        and supplies put into production or used for repair and manteinance, along with purchased electric energy
+        and fuels consumed for heat and power, and contract work done by others for the plant. This excludes the costs
+        of services used, overhead costs, or expenditures related to plant expansion. Because MATCOST includes
+        energy spending, to calculate spending on non-energy materials one must use (MATCOST-ENERGY).</txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V34" access="released" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="vadd">
+      <location width="9"/>
+      <labl>Total value added in $1m</labl>
+      <valrng>
+        <range UNITS="REAL" max="111187.9" min="9.7"/>
+      </valrng>
+      <sumStat type="vald">24167</sumStat>
+      <sumStat type="invd">429</sumStat>
+      <sumStat type="min">9.7</sumStat>
+      <sumStat type="max">111187.9</sumStat>
+      <sumStat type="mean">2190.409</sumStat>
+      <sumStat type="stdev">4710.187</sumStat>
+      <txt>Value added by manifacture (millions of dollars). This equals VSHIP - MATCOST + change in finished goods and
+        work-in-process inventories during the year.</txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V35" access="restricted" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="invest">
+      <location width="9"/>
+      <labl>Total capital expendture in $1m</labl>
+      <valrng>
+        <range UNITS="REAL" max="17601.6" min="0.1"/>
+      </valrng>
+      <sumStat type="vald">24167</sumStat>
+      <sumStat type="invd">429</sumStat>
+      <sumStat type="min">0.1</sumStat>
+      <sumStat type="max">17601.6</sumStat>
+      <sumStat type="mean">156.655</sumStat>
+      <sumStat type="stdev">462.108</sumStat>
+      <txt>Total capital spending (millions of dollars). This variable underwent a substantial change in definition. 
+        The ASM reported new capital expenditures before 1997 (with used capital expenditures in an additional table), 
+        but switched to reporting the sum of new and used expenditures in 1997, with no separate breakout of new and used 
+        expenditures (even in Census years). In order to maintain consistency with the earlier data, we adjusted the post-1996 
+        data to reflect new expenditures. The data on new and used expenditures from 1987, 1992, and 1996 were combined to derive
+        a &#x93;fraction new&#x94; (new/(new+used)) for each industry, which was then used to adjust the post-1996 capital expenditure numbers
+        to reflect only new expenditures.</txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V36" access="restricted" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="invent">
+      <location width="9"/>
+      <labl>End-of-year inventories in $1m</labl>
+      <valrng>
+        <range UNITS="REAL" max="40084.9" min="1.3"/>
+      </valrng>
+      <sumStat type="vald">24162</sumStat>
+      <sumStat type="invd">434</sumStat>
+      <sumStat type="min">1.3</sumStat>
+      <sumStat type="max">40084.9</sumStat>
+      <sumStat type="mean">585.429</sumStat>
+      <sumStat type="stdev">1433.618</sumStat>
+      <txt>End-of-year inventories (millions of dollars). Before 1982 this was based on any generally accepted accounting
+        method. Beginning in 1982 this is based either at cost or at market, with LIFO users asked to report pre-adjustment
+        values.</txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V37" access="restricted" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="energy">
+      <location width="9"/>
+      <labl>Cost of electricity and fuels in $1m</labl>
+      <valrng>
+        <range UNITS="REAL" max="14201.5" min="0.1"/>
+      </valrng>
+      <sumStat type="vald">24167</sumStat>
+      <sumStat type="invd">429</sumStat>
+      <sumStat type="min">0.1</sumStat>
+      <sumStat type="max">14201.5</sumStat>
+      <sumStat type="mean">97.69</sumStat>
+      <sumStat type="stdev">360.53</sumStat>
+      <txt>Expenditures on purchased fuels and electrical energy (millions of dollars).</txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V38" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="cap">
+      <location width="9"/>
+      <labl>Total real capital stock in $1m</labl>
+      <valrng>
+        <range UNITS="REAL" max="120110.3" min="4.1"/>
+      </valrng>
+      <sumStat type="vald">24167</sumStat>
+      <sumStat type="invd">429</sumStat>
+      <sumStat type="min">4.1</sumStat>
+      <sumStat type="max">120110.3</sumStat>
+      <sumStat type="mean">2757.95</sumStat>
+      <sumStat type="stdev">6388.03</sumStat>
+      <txt>Real capital stock (millions of 1997 dollars). This equals (EQUIP + PLANT).</txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V39" access="restricted" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="equip">
+      <location width="9"/>
+      <labl>Real capital: equipment in $1m</labl>
+      <valrng>
+        <range UNITS="REAL" max="88454.6" min="1.9"/>
+      </valrng>
+      <sumStat type="vald">24167</sumStat>
+      <sumStat type="invd">429</sumStat>
+      <sumStat type="min">1.9</sumStat>
+      <sumStat type="max">88454.6</sumStat>
+      <sumStat type="mean">1664.517</sumStat>
+      <sumStat type="stdev">4145.339</sumStat>
+      <txt>Real equipment capital stock (millions of 1987 dollars).</txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V40" access="released" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="plant">
+      <location width="9"/>
+      <labl>Real capital: structures in $1m</labl>
+      <valrng>
+        <range UNITS="REAL" max="38874.4" min="2.2"/>
+      </valrng>
+      <sumStat type="vald">24167</sumStat>
+      <sumStat type="invd">429</sumStat>
+      <sumStat type="min">2.2</sumStat>
+      <sumStat type="max">38874.4</sumStat>
+      <sumStat type="mean">1093.433</sumStat>
+      <sumStat type="stdev">2418.355</sumStat>
+      <txt>Real structures capital stock (millions of 1987 dollars).</txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V41" access="released" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="piship">
+      <location width="9"/>
+      <labl>Deflator for VSHIP 1997=1.000</labl>
+      <valrng>
+        <range UNITS="REAL" max="47.4090003967285" min="0.0439999997615814"/>
+      </valrng>
+      <sumStat type="vald">24167</sumStat>
+      <sumStat type="invd">429</sumStat>
+      <sumStat type="min">0.044</sumStat>
+      <sumStat type="max">47.409</sumStat>
+      <sumStat type="mean">0.799</sumStat>
+      <sumStat type="stdev">1.552</sumStat>
+      <txt>Shipment deflator (equals 1 in 1997). The price indexes used in the calculation of the shipments deflator 
+        come from the Bureau of Economic Analysis (BEA) GDP-by-Industry data, found at http://www.bea.gov under 
+        the &#x93;Industry&#x94; tab. The BEA price index data contain several &#x93;rolled-up&#x94; 6-digit codes that combine two 
+        or more 6-digit NAICS industries. For example, NAICS 311411 (Frozen Fruit, Juice, and Vegetable Manufacturing)
+        and NAICS 311412 (Frozen Specialty Food Manufacturing) are &#x93;rolled up&#x94; into a single code, 311410. This problem
+        is addressed by assuming that industries within each roll-up have the same price structure, and assigning the 
+        values of the parent to all associated 6-digit NAICS offspring codes.</txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V42" access="released" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="pimat">
+      <location width="9"/>
+      <labl>Deflator for MATCOST 1997=1.000</labl>
+      <valrng>
+        <range UNITS="REAL" max="2.77699995040894" min="0.127000004053116"/>
+      </valrng>
+      <sumStat type="vald">24167</sumStat>
+      <sumStat type="invd">429</sumStat>
+      <sumStat type="min">0.127</sumStat>
+      <sumStat type="max">2.777</sumStat>
+      <sumStat type="mean">0.718</sumStat>
+      <sumStat type="stdev">0.357</sumStat>
+      <txt>
+        <p>The materials cost deflators are calculated using data from the &#x93;use-make&#x94; (input-output)
+        tables and the GDP-by-Industry data of the Bureau of Economic Analysis (BEA). The raw data are available 
+        at the BEA website (<ExtLink URI="http://www.bea.gov">http://www.bea.gov</ExtLink>) under the &#x93;Industry&#x94; tab. The use-make tables disaggregate each 
+        industry's total materials cost into the amount spent on each specific material. The share of each material 
+        in the industry's total materials cost is then used to weight each material's price index, resulting in a 
+        weighted-average price index for the industry's total materials cost. The benchmark versions of the 
+        use-make tables, which are generated every 5 years, are used. A moving average of the weights from the two 
+        surrounding benchmark years is used to interpolate the weights for the use-make tables in the intervening years. 
+        Inputs coming from manufacturing industries use the price index in the database for that industry's shipments. 
+        Inputs coming from other (non-manufacturing) sectors use that sector's price index for gross output.</p>
+        <p>The main 
+        difficulty with implementing the above procedure is the lack of a clear one-to-one correspondence between the 
+        industry codes used in the use-make tables and those used in the ASM/CMF data. The use-make tables contain many 
+        fewer industries than the NAICS industries. BEA does provide concordance tables, which are supplemented with 
+        some manual matching based on industry definitions. We assume that all NAICS industries which map into the same 
+        use-make industry have the same structure of inputs.</p>
+        <p>To match MATCOST, this is a deflator for all materials, including energy. If you need a separate 'non-energy
+        materials' deflator, you can construct an implicit one, based on (MATCOST/PIMAT) - (ENERGY/PIEN).</p>
+      </txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V43" access="released" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="piinv">
+      <location width="9"/>
+      <labl>Deflator for INVEST 1997=1.000</labl>
+      <valrng>
+        <range UNITS="REAL" max="1.5809999704361" min="0.18299999833107"/>
+      </valrng>
+      <sumStat type="vald">24167</sumStat>
+      <sumStat type="invd">429</sumStat>
+      <sumStat type="min">0.183</sumStat>
+      <sumStat type="max">1.581</sumStat>
+      <sumStat type="mean">0.694</sumStat>
+      <sumStat type="stdev">0.309</sumStat>
+      <txt>
+        <p>Price deflator for new investment (equals 1 in 1997). This combines separate deflators for structures
+        and equipment, based on the distribution of each type of asset in the industry. Note that this is a deflator
+        for new investment flows, not for the existing capital stock. The ASM provides annual data for gross nominal 
+        capital expenditures on equipment and structures. However, it lacks information on depreciation rates and investment
+        deflators, which are necessary in order to construct the real capital stocks in the database.</p>
+        <p>Depreciation rates are derived from Federal Reserve Board data (FRB). Depreciation rates are calculated for each industry,
+        backing them out of a standard perpetual inventory equation: `K_t = (1-d_{t-1})K_{t-1} + I_t`, where
+        `d` is the rate of depreciation, `K` is the real capital stock in years `t` and `t-1`, and `I` is the real
+        capital investment in year `t`.</p>
+        <p>To calculate the investment deflator, price indexes for equipment and structures are computed
+        from the ratios of nominal and real investment for the 4-digit NAICS industries in the FRB data. The final deflator values 
+        are created as the weighted mean of the two types of capital expenditures. The shares used for the weights are averaged over
+        years `t` and `t-1`. 
+        For detailed information please refer to http://www.nber.org/nberces/nberces5809/nberces_5809_technical_notes.pdf</p>
+      </txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V44" access="released" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="pien">
+      <location width="9"/>
+      <labl>Deflator for ENERGY 1997=1.000</labl>
+      <valrng>
+        <range UNITS="REAL" max="2.23300004005432" min="0.0869999974966049"/>
+      </valrng>
+      <sumStat type="vald">24167</sumStat>
+      <sumStat type="invd">429</sumStat>
+      <sumStat type="min">0.087</sumStat>
+      <sumStat type="max">2.233</sumStat>
+      <sumStat type="mean">0.695</sumStat>
+      <sumStat type="stdev">0.402</sumStat>
+      <txt>
+        <p>Price deflator for energy (equals 1 in 1997). The energy deflator is based on each industry's expenditures on seven types of energy: electricity, 
+        residual fuel oil, light oils, liquefied petroleum, coal, coke, and natural gas. Previous updates used information
+        for six types of energy (the &#x93;distillates&#x94; category was recently split into light oils and liquefied petroleum).</p>
+        <p>As with the materials cost deflator, we combine price indices for the different energy types with information on 
+        each energy type's share in the industry's total energy expenditures Data on energy expenditures for six fuels 
+        (excluding electricity) come from 2002 Manufacturing Energy Consumption Survey (MECS). The data on energy expenditures
+        for six of the fuels in the current update (excluding electricity) come from the 2002 Manufacturing Energy Consumption 
+        Survey (MECS), available at the Bureau of the Census website (http://www.census.gov). The ASM data provide information 
+        on electricity and non- electricity energy spending, and the MECS data are used to disaggregate each industry's 
+        non-electricity spending share into the share of each of the six non-electricity energy types. There are a number of 
+        missing values in the MECS data. &#x93;Extremely small&#x94; values (less than 0.5), as well as values with high relative standard
+        error (more than 50%) are withheld from the official MECS release by Census. Additionally, some values are withheld to 
+        avoid disclosing information for individual establishments in cases where an industry relatively few plants. The &#x93;extremely small&#x94;
+        values are replaced by 0.1. Since MECS reports totals by industry and type of energy, it is possible to impute the few remaining
+        missing values at the 3-digit NAICS level by running a cross-check against the unassigned residuals from those totals.</p>
+        <p>MECS data contain a full set of 3-digit NAICS industry codes, but little industry detail beyond that. Only a handful of 4-, 5-, and 
+        6-digit NAICS industries are included in the MECS, and the cross-check approach cannot be used to fill missing values in those series. 
+        Therefore, all 4-to-6 digit NAICS industries with missing values have to be discarded, and the next higher level of detail is used in 
+        the construction of the energy deflator. Price indexes for each non-electricity energy type are obtained from the Bureau of Labor 
+        Statistics database (http://www.bls.gov), using the industrial price indexes. The codes of the extracted BLS variables are:</p>
+        <xhtml:ul>
+          <xhtml:li>WPU051 Coal</xhtml:li>
+          <xhtml:li>WPU052 Coke oven products</xhtml:li>
+          <xhtml:li>WPU0532 Liquefied petroleum gas</xhtml:li>
+          <xhtml:li>WPU054321 Industrial electric power</xhtml:li>
+          <xhtml:li>WPU055321 Industrial natural gas</xhtml:li>
+          <xhtml:li>WPU0573 Light fuel oils</xhtml:li>
+          <xhtml:li>WPU0574 Residual fuels</xhtml:li>
+        </xhtml:ul>
+        <p>Since the 1996 update, the WPU052 Coke oven products series has been discontinued. Thus, the coke price data used here are extrapolated
+        from coal prices. Electricity prices are calculated from the industry- specific electricity consumption and expenditures data in the ASM tables,
+        where available, and otherwise taken from the national-average values.</p>
+      </txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V45" access="released" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="dtfp5">
+      <location width="9"/>
+      <labl>5-factor TFP annual growth rate</labl>
+      <valrng>
+        <range UNITS="REAL" max="1.38699996471405" min="-0.642000019550324"/>
+      </valrng>
+      <sumStat type="vald">23694</sumStat>
+      <sumStat type="invd">902</sumStat>
+      <sumStat type="min">-0.642</sumStat>
+      <sumStat type="max">1.387</sumStat>
+      <sumStat type="mean">0.00306</sumStat>
+      <sumStat type="stdev">0.0661</sumStat>
+      <txt>
+        <p>There are two versions of TFP in the NBER-CES Manufacturing Database: 4-factor and 5-factor. 
+          The 5- factor version separates out energy from non-energy materials; the 4-factor uses a single materials input 
+          (which includes energy). The TFP calculation requires definitions of the cost shares, the factors, the factor changes,
+          and the output changes.
+          The five cost shares (`alpha_i`) vary by industry by year, defined using the variable names in the dataset:</p>
+        <xhtml:ul>
+          <xhtml:li>(`alpha_1`) Non-production workers: (pay-prodw)/vship   [i.e., their pay divided by shipments]</xhtml:li>
+          <xhtml:li>(`alpha_2`) Production workers: prodw/vship             [i.e., their pay divided by shipments]</xhtml:li>
+          <xhtml:li>(`alpha_3`) Energy:  energy/vship                       [i.e., energy expenditure divided by shipments]</xhtml:li>
+          <xhtml:li>(`alpha_4`) Materials:  (matcost-energy)/vship          [i.e., non-energy materials divided by shipments]</xhtml:li>
+          <xhtml:li>(`alpha_5`) Capital:  1 - (sum of the above shares)     [i.e., the residual]</xhtml:li>
+        </xhtml:ul>
+        <p>In calculating TFP growth from one year to the next, we use the average of the two years' cost shares: `bar alpha_{it} = 0.5alpha_{it} + 0.5alpha_{it-1}`
+          The 5 factors (`X_i`) are defined as follows, using the variable names in the dataset:</p>
+        <xhtml:ul>
+          <xhtml:li>(`X_1`) Non-production workers:  (emp-prode)            [i.e., the number of non-production workers]</xhtml:li>
+          <xhtml:li>(`X_2`) Production workers:  prodh                      [i.e., production worker hours, not employees]</xhtml:li>
+          <xhtml:li>(`X_3`) Energy:  (energy/pien)                          [i.e., real energy expenditures]</xhtml:li>
+          <xhtml:li>(`X_4`) Materials:  ((matcost/pimat) - (energy/pien))   [i.e., real non-energy materials]</xhtml:li>
+          <xhtml:li>(`X_5`) Capital:  cap                                   [i.e., total capital stock, already in real terms]</xhtml:li>
+        </xhtml:ul>
+        <p>The change in factor usage between one year and the next is defined as the change in natural logs, (for example):
+          `dX_{it} = ln(X_{it}) - ln(X_{it-1})`</p>
+        <p>We also need the change in real output:
+          (Q) Real output:<emph>vship/piship</emph>
+        </p>
+        <p>As with factor usage, we express output change in terms of natural logs, hence:
+          `dQ_t = ln(Q_t) - ln(Q_{t-1})`</p>
+        <p>The change in 5-factor TFP (dTFP5) between this year and last is thus defined as:
+          `dTFP5_t = dQ_t - sum_i(alpha'_{it}dX_{it})`, `i = 1, ..., 5`</p>
+        <p>Given the series of dTFP5 values, one can then "roll up" these changes to form a TFP index (TFP5), by setting the index 
+          equal to 1.0 in some initial year `t` and then growing the index forward by the following equation:
+          `TFP5_{t+1} = exp[ ln(TFP5_t) + (dTFP5_{t+1})]`</p>
+        <p>The values of 4-factor TFP growth (dTFP4) and the corresponding TFP index (TFP4) are calculated similarly, but using 
+          total materials cost spending rather than separating it into energy and non-energy materials.</p>
+      </txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V46" access="released" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="tfp5">
+      <location width="9"/>
+      <labl>5-factor TFP index 1997=1.000</labl>
+      <valrng>
+        <range UNITS="REAL" max="13.1920003890991" min="0.0120000001043081"/>
+      </valrng>
+      <sumStat type="vald">24167</sumStat>
+      <sumStat type="invd">429</sumStat>
+      <sumStat type="min">0.012</sumStat>
+      <sumStat type="max">13.192</sumStat>
+      <sumStat type="mean">0.937</sumStat>
+      <sumStat type="stdev">0.257</sumStat>
+      <txt>
+        <p>There are two versions of TFP in the NBER-CES Manufacturing Database: 4-factor and 5-factor. 
+          The 5- factor version separates out energy from non-energy materials; the 4-factor uses a single materials input 
+          (which includes energy). The TFP calculation requires definitions of the cost shares, the factors, the factor changes,
+          and the output changes.
+          The five cost shares (`alpha_i`) vary by industry by year, defined using the variable names in the dataset:</p>
+        <xhtml:ul>
+          <xhtml:li>(`alpha_1`) Non-production workers: (pay-prodw)/vship   [i.e., their pay divided by shipments]</xhtml:li>
+          <xhtml:li>(`alpha_2`) Production workers: prodw/vship             [i.e., their pay divided by shipments]</xhtml:li>
+          <xhtml:li>(`alpha_3`) Energy:  energy/vship                       [i.e., energy expenditure divided by shipments]</xhtml:li>
+          <xhtml:li>(`alpha_4`) Materials:  (matcost-energy)/vship          [i.e., non-energy materials divided by shipments]</xhtml:li>
+          <xhtml:li>(`alpha_5`) Capital:  1 - (sum of the above shares)     [i.e., the residual]</xhtml:li>
+        </xhtml:ul>
+        <p>In calculating TFP growth from one year to the next, we use the average of the two years' cost shares: `bar alpha_{it} = 0.5alpha_{it} + 0.5alpha_{it-1}`
+          The 5 factors (`X_i`) are defined as follows, using the variable names in the dataset:</p>
+        <xhtml:ul>
+          <xhtml:li>(`X_1`) Non-production workers:  (emp-prode)            [i.e., the number of non-production workers]</xhtml:li>
+          <xhtml:li>(`X_2`) Production workers:  prodh                      [i.e., production worker hours, not employees]</xhtml:li>
+          <xhtml:li>(`X_3`) Energy:  (energy/pien)                          [i.e., real energy expenditures]</xhtml:li>
+          <xhtml:li>(`X_4`) Materials:  ((matcost/pimat) - (energy/pien))   [i.e., real non-energy materials]</xhtml:li>
+          <xhtml:li>(`X_5`) Capital:  cap                                   [i.e., total capital stock, already in real terms]</xhtml:li>
+        </xhtml:ul>
+        <p>The change in factor usage between one year and the next is defined as the change in natural logs, (for example):
+          `dX_{it} = ln(X_{it}) - ln(X_{it-1})`</p>
+        <p>We also need the change in real output:
+          (Q) Real output:<emph>vship/piship</emph>
+        </p>
+        <p>As with factor usage, we express output change in terms of natural logs, hence:
+          `dQ_t = ln(Q_t) - ln(Q_{t-1})`</p>
+        <p>The change in 5-factor TFP (dTFP5) between this year and last is thus defined as:
+          `dTFP5_t = dQ_t - sum_i(alpha'_{it}dX_{it})`, `i = 1, ..., 5`</p>
+        <p>Given the series of dTFP5 values, one can then "roll up" these changes to form a TFP index (TFP5), by setting the index 
+          equal to 1.0 in some initial year `t` and then growing the index forward by the following equation:
+          `TFP5_{t+1} = exp[ ln(TFP5_t) + (dTFP5_{t+1})]`</p>
+        <p>The values of 4-factor TFP growth (dTFP4) and the corresponding TFP index (TFP4) are calculated similarly, but using 
+          total materials cost spending rather than separating it into energy and non-energy materials.</p>
+      </txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V47" access="released" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="dtfp4">
+      <location width="9"/>
+      <labl>4-factor TFP annual growth rate</labl>
+      <valrng>
+        <range UNITS="REAL" max="1.38699996471405" min="-0.642000019550324"/>
+      </valrng>
+      <sumStat type="vald">23694</sumStat>
+      <sumStat type="invd">902</sumStat>
+      <sumStat type="min">-0.642</sumStat>
+      <sumStat type="max">1.387</sumStat>
+      <sumStat type="mean">0.00306</sumStat>
+      <sumStat type="stdev">0.0663</sumStat>
+      <txt>
+        <p>There are two versions of TFP in the NBER-CES Manufacturing Database: 4-factor and 5-factor. 
+          The 5- factor version separates out energy from non-energy materials; the 4-factor uses a single materials input 
+          (which includes energy). The TFP calculation requires definitions of the cost shares, the factors, the factor changes,
+          and the output changes.
+          The five cost shares (`alpha_i`) vary by industry by year, defined using the variable names in the dataset:</p>
+        <xhtml:ul>
+          <xhtml:li>(`alpha_1`) Non-production workers: (pay-prodw)/vship   [i.e., their pay divided by shipments]</xhtml:li>
+          <xhtml:li>(`alpha_2`) Production workers: prodw/vship             [i.e., their pay divided by shipments]</xhtml:li>
+          <xhtml:li>(`alpha_3`) Energy:  energy/vship                       [i.e., energy expenditure divided by shipments]</xhtml:li>
+          <xhtml:li>(`alpha_4`) Materials:  (matcost-energy)/vship          [i.e., non-energy materials divided by shipments]</xhtml:li>
+          <xhtml:li>(`alpha_5`) Capital:  1 - (sum of the above shares)     [i.e., the residual]</xhtml:li>
+        </xhtml:ul>
+        <p>In calculating TFP growth from one year to the next, we use the average of the two years' cost shares: `bar alpha_{it} = 0.5alpha_{it} + 0.5alpha_{it-1}`
+          The 5 factors (`X_i`) are defined as follows, using the variable names in the dataset:</p>
+        <xhtml:ul>
+          <xhtml:li>(`X_1`) Non-production workers:  (emp-prode)            [i.e., the number of non-production workers]</xhtml:li>
+          <xhtml:li>(`X_2`) Production workers:  prodh                      [i.e., production worker hours, not employees]</xhtml:li>
+          <xhtml:li>(`X_3`) Energy:  (energy/pien)                          [i.e., real energy expenditures]</xhtml:li>
+          <xhtml:li>(`X_4`) Materials:  ((matcost/pimat) - (energy/pien))   [i.e., real non-energy materials]</xhtml:li>
+          <xhtml:li>(`X_5`) Capital:  cap                                   [i.e., total capital stock, already in real terms]</xhtml:li>
+        </xhtml:ul>
+        <p>The change in factor usage between one year and the next is defined as the change in natural logs, (for example):
+          `dX_{it} = ln(X_{it}) - ln(X_{it-1})`</p>
+        <p>We also need the change in real output:
+          (Q) Real output:<emph>vship/piship</emph>
+        </p>
+        <p>As with factor usage, we express output change in terms of natural logs, hence:
+          `dQ_t = ln(Q_t) - ln(Q_{t-1})`</p>
+        <p>The change in 5-factor TFP (dTFP5) between this year and last is thus defined as:
+          `dTFP5_t = dQ_t - sum_i(alpha'_{it}dX_{it})`, `i = 1, ..., 5`</p>
+        <p>Given the series of dTFP5 values, one can then "roll up" these changes to form a TFP index (TFP5), by setting the index 
+          equal to 1.0 in some initial year `t` and then growing the index forward by the following equation:
+          `TFP5_{t+1} = exp[ ln(TFP5_t) + (dTFP5_{t+1})]`</p>
+        <p>The values of 4-factor TFP growth (dTFP4) and the corresponding TFP index (TFP4) are calculated similarly, but using 
+          total materials cost spending rather than separating it into energy and non-energy materials.</p>
+      </txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="V48" access="released" dcml="0" files="F2csv F2dta F2sas F2xls" intrvl="contin" name="tfp4">
+      <location width="9"/>
+      <labl>4-factor TFP index 1997=1.000</labl>
+      <valrng>
+        <range UNITS="REAL" max="13.1929998397827" min="0.0109999999403954"/>
+      </valrng>
+      <sumStat type="vald">24167</sumStat>
+      <sumStat type="invd">429</sumStat>
+      <sumStat type="min">0.011</sumStat>
+      <sumStat type="max">13.193</sumStat>
+      <sumStat type="mean">0.936</sumStat>
+      <sumStat type="stdev">0.257</sumStat>
+      <txt>
+        <p>There are two versions of TFP in the NBER-CES Manufacturing Database: 4-factor and 5-factor. 
+          The 5- factor version separates out energy from non-energy materials; the 4-factor uses a single materials input 
+          (which includes energy). The TFP calculation requires definitions of the cost shares, the factors, the factor changes,
+          and the output changes.
+          The five cost shares (`alpha_i`) vary by industry by year, defined using the variable names in the dataset:</p>
+        <xhtml:ul>
+          <xhtml:li>(`alpha_1`) Non-production workers: (pay-prodw)/vship   [i.e., their pay divided by shipments]</xhtml:li>
+          <xhtml:li>(`alpha_2`) Production workers: prodw/vship             [i.e., their pay divided by shipments]</xhtml:li>
+          <xhtml:li>(`alpha_3`) Energy:  energy/vship                       [i.e., energy expenditure divided by shipments]</xhtml:li>
+          <xhtml:li>(`alpha_4`) Materials:  (matcost-energy)/vship          [i.e., non-energy materials divided by shipments]</xhtml:li>
+          <xhtml:li>(`alpha_5`) Capital:  1 - (sum of the above shares)     [i.e., the residual]</xhtml:li>
+        </xhtml:ul>
+        <p>In calculating TFP growth from one year to the next, we use the average of the two years' cost shares: `bar alpha_{it} = 0.5alpha_{it} + 0.5alpha_{it-1}`
+          The 5 factors (`X_i`) are defined as follows, using the variable names in the dataset:</p>
+        <xhtml:ul>
+          <xhtml:li>(`X_1`) Non-production workers:  (emp-prode)            [i.e., the number of non-production workers]</xhtml:li>
+          <xhtml:li>(`X_2`) Production workers:  prodh                      [i.e., production worker hours, not employees]</xhtml:li>
+          <xhtml:li>(`X_3`) Energy:  (energy/pien)                          [i.e., real energy expenditures]</xhtml:li>
+          <xhtml:li>(`X_4`) Materials:  ((matcost/pimat) - (energy/pien))   [i.e., real non-energy materials]</xhtml:li>
+          <xhtml:li>(`X_5`) Capital:  cap                                   [i.e., total capital stock, already in real terms]</xhtml:li>
+        </xhtml:ul>
+        <p>The change in factor usage between one year and the next is defined as the change in natural logs, (for example):
+          `dX_{it} = ln(X_{it}) - ln(X_{it-1})`</p>
+        <p>We also need the change in real output:
+          (Q) Real output:<emph>vship/piship</emph>
+        </p>
+        <p>As with factor usage, we express output change in terms of natural logs, hence:
+          `dQ_t = ln(Q_t) - ln(Q_{t-1})`</p>
+        <p>The change in 5-factor TFP (dTFP5) between this year and last is thus defined as:
+          `dTFP5_t = dQ_t - sum_i(alpha'_{it}dX_{it})`, `i = 1, ..., 5`</p>
+        <p>Given the series of dTFP5 values, one can then "roll up" these changes to form a TFP index (TFP5), by setting the index 
+          equal to 1.0 in some initial year `t` and then growing the index forward by the following equation:
+          `TFP5_{t+1} = exp[ ln(TFP5_t) + (dTFP5_{t+1})]`</p>
+        <p>The values of 4-factor TFP growth (dTFP4) and the corresponding TFP index (TFP4) are calculated similarly, but using 
+          total materials cost spending rather than separating it into energy and non-energy materials.</p>
+      </txt>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+  </dataDscr>
+</codeBook>
